@@ -1,0 +1,9 @@
+from datetime import datetime
+The datetime module is part of the Python standard library and is used for working with dates and times. In this script, it's employed to calculate the age by finding the difference between the current date and a user-inputted birthdate.
+import time
+The time module provides various time-related functions. In this script, it is used to introduce a pause or sleep between iterations, creating a one-second interval for displaying the age.
+import os
+The os module offers a way to interact with the operating system. Here, it's utilized to clear the console screen, providing a cleaner display of the age information.
+import msvcrt
+The msvcrt module is specific to Windows and is used for handling console input. In this script, it is employed to check if a key is pressed, allowing the user to interrupt the continuous age display by pressing the Enter key.
+These libraries collectively contribute to the functionality of the script, enabling the calculation and continuous display of a person's age with interactive features.
